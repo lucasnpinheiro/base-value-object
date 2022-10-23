@@ -2,10 +2,11 @@
     "name": "lucasnpinheiro/base-value-object",
     "description": "Base Value Object",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "BaseValueObject\\": "src/"
         }
     },
     "authors": [
