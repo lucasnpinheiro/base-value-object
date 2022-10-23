@@ -2,6 +2,7 @@
     "name": "lucasnpinheiro/base-value-object",
     "description": "Base Value Object",
     "license": "MIT",
+    "version": "1.0.1",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
