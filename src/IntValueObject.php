@@ -19,7 +19,7 @@ abstract class IntValueObject extends ValueObject
      * IntValueObject constructor.
      * @param int $value
      */
-    private function __construct(int $value)
+    protected function __construct(int $value)
     {
         $this->setValue($value);
     }
