@@ -24,7 +24,7 @@ class MoneyValueObject extends ValueObject
     /**
      * @param string $value
      */
-    private function __construct(string $value)
+    protected function __construct(string $value)
     {
         $this->setValue($value);
     }
