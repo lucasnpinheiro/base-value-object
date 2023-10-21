@@ -19,7 +19,7 @@ abstract class FloatValueObject extends ValueObject
      * FloatValueObject constructor.
      * @param float $value
      */
-    public function __construct(float $value)
+    private function __construct(float $value)
     {
         $this->setValue($value);
     }
