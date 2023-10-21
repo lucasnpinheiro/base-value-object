@@ -19,7 +19,7 @@ abstract class BooleanValueObject extends ValueObject
      * BooleanValueObject constructor.
      * @param bool $value
      */
-    private function __construct(bool $value)
+    protected function __construct(bool $value)
     {
         $this->setValue($value);
     }
