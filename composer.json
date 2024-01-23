@@ -16,7 +16,13 @@
             "email": "lucasnpinheiro@gmail.com"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.0",
+        "ext-decimal": "*",
+        "ext-iconv": "*"
     }
 }
