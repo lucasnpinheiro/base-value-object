@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    image: lucasnpinheiro/php-fpm:php8.2
+    container_name: php-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/var/www/html
+
+  cli:
+    image: lucasnpinheiro/php-fpm:php8.2
+    container_name: php-cli
+    volumes:
+      - ./web:/var/www/html
+    working_dir: /var/www/html

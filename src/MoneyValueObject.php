@@ -118,7 +118,7 @@ class MoneyValueObject extends ValueObject
      */
     public function greaterThanOrEqual(MoneyValueObject $other): bool
     {
-        return  $this->decimal->compareTo($other->decimal) >= 0;
+        return $this->decimal->compareTo($other->decimal) >= 0;
     }
 
     /**
@@ -144,7 +144,7 @@ class MoneyValueObject extends ValueObject
      */
     public function lessThanOrEqual(MoneyValueObject $other): bool
     {
-        return  $this->decimal->compareTo($other->decimal) <= 0;
+        return $this->decimal->compareTo($other->decimal) <= 0;
     }
 
     /**
