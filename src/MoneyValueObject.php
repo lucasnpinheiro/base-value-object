@@ -7,8 +7,8 @@ namespace BaseValueObject;
 use Decimal\Decimal;
 
 /**
- * Class Money
- * @package PicPay\Payments\ValueObject
+ * Class MoneyValueObject
+ * @package ValueObject
  */
 class MoneyValueObject extends ValueObject
 {
