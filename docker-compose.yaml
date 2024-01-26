@@ -5,6 +5,6 @@ services:
     image: lucasnpinheiro/php-fpm:php8.2
     container_name: app
     ports:
-      - "8080:80"
+      - "8089:80"
     volumes:
       - ./:/var/www/html
