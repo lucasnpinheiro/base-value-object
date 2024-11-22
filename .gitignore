@@ -5,3 +5,5 @@ web/
 vendor/
 supervisord.pid
 supervisord.log
+.idea/
+.vscode/
